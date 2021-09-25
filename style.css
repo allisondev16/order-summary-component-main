@@ -1,0 +1,163 @@
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url("/images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: #e0e8ff;
+  background-position-x: center;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+body > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 1.6875rem;
+  color: #1f2f56;
+  margin-top: 2.875rem;
+  margin-bottom: 0px;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  color: #7280a7;
+}
+
+button {
+  background-color: #3829e0;
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 700;
+  padding: 1rem 6.5rem;
+  border: 0;
+  border-radius: 0.625rem;
+  font-family: 'Red Hat Display', sans-serif;
+  margin-top: 2.0625rem;
+  -webkit-box-shadow: 0px 24px 16px 0px rgba(56, 41, 224, 0.18);
+          box-shadow: 0px 24px 16px 0px rgba(56, 41, 224, 0.18);
+  -webkit-transition: opacity 150ms ease-in-out;
+  transition: opacity 150ms ease-in-out;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+.container {
+  width: 28.125rem;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  background-color: white;
+  margin: 5.625rem 0;
+}
+
+.image {
+  background-image: url(/images/illustration-hero.svg);
+  height: 13.75rem;
+  background-repeat: no-repeat;
+}
+
+.summary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 3rem;
+}
+
+.summary p {
+  margin: 1.1875rem 0px;
+  width: 19rem;
+  line-height: 1.6;
+}
+
+.option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f5f7ff;
+  padding: 1.375rem 1.5rem;
+  border-radius: 0.75rem;
+}
+
+.option img {
+  margin-right: 0.875rem;
+}
+
+.option div {
+  display: inline-block;
+}
+
+.option .plan {
+  color: #1f2f56;
+}
+
+.option .plan p {
+  width: 6.5rem;
+  margin-right: 5.5rem;
+}
+
+.option .plan p.period {
+  margin-bottom: 0.0625rem;
+  font-weight: 900;
+  color: #1f2f56;
+  margin-top: 0px;
+}
+
+.option .plan p.price {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.option a {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #3829e0;
+  -webkit-transition: opacity 150ms ease-in-out;
+  transition: opacity 150ms ease-in-out;
+}
+
+.option a:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.cancelOrder {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: #7280a7;
+  text-decoration: none;
+  margin-top: 2.0625rem;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+}
+
+.cancelOrder:hover {
+  color: #1f2f56;
+}
+/*# sourceMappingURL=style.css.map */
