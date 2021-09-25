@@ -60,19 +60,19 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-- background sgv for desktop not working with plain CSS but works with SCSS
+- Background sgv for desktop not working with plain CSS but works with SCSS.
 
-- i'm proud of using 
+- I'm proud of using 
 overflow: hidden
 thanks coder coder
 
-- usage of flex justify-content and align-items
+- Usage of flex justify-content and align-items
 
-- nesting using scss is a life-saver as I can easily manage the styles of a section
+- Nesting using scss is a life-saver as I can easily manage the styles of a section
 
 - I leveraged more the chrome developer tools by using increase and decrease of pixels, there's even a customization tool for colors that supports formats, hsla, rgba and #, which can be converted by just clicking a button. For the box-shadow style, hsl/hsla is not working so I used rgba just like coder coder's Easybank landing page.
 
-- how to position the background image? use background-position ;)
+- How to position the background image? Use background-position ;)
 
 
 

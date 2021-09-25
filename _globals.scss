@@ -17,11 +17,19 @@ body {
     }
 }
 
+@media (max-width: 23.5em){
+    .container {
+        >img {
+            width: 20.5rem;
+        }
+    } 
+}
+
 h1 {
     font-weight: 900;
     font-size: 1.6875rem;
     color: $darkBlue;
-    margin-top: 2.875rem;
+    margin-top: 2.5625rem;
     margin-bottom: 0px;
 }
 
