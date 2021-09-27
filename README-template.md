@@ -63,8 +63,10 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Background sgv for desktop not working with plain CSS but works with SCSS.
 
 - I'm proud of using 
-overflow: hidden
-thanks coder coder
+```css
+overflow: hidden;
+```
+thanks Coder Coder
 
 - Usage of flex justify-content and align-items
 
@@ -73,6 +75,8 @@ thanks coder coder
 - I leveraged more the chrome developer tools by using increase and decrease of pixels, there's even a customization tool for colors that supports formats, hsla, rgba and #, which can be converted by just clicking a button. For the box-shadow style, hsl/hsla is not working so I used rgba just like coder coder's Easybank landing page.
 
 - How to position the background image? Use background-position ;)
+
+- I know Coder Coder used an Adobe software to measure the sizes of the images, but I just discovered that I can use MS Paint when I was close on finishing this challenge! But you know what they say, it's always never too late.
 
 
 

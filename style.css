@@ -65,6 +65,12 @@ button:hover {
   opacity: 0.7;
 }
 
+@media (max-width: 23.5em) {
+  button {
+    padding: 1rem 4.5rem;
+  }
+}
+
 .container {
   border-radius: 1.25rem;
   overflow: hidden;
@@ -104,8 +110,14 @@ button:hover {
   border-radius: 0.75rem;
 }
 
-.option img {
-  margin-right: 0.875rem;
+@media (max-width: 23.5em) {
+  .option {
+    width: 15.5rem;
+    padding: 0.9375rem 1rem;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
 .option div {
@@ -119,6 +131,14 @@ button:hover {
 .option .plan p {
   width: 6.5rem;
   margin-right: 5.5rem;
+}
+
+@media (max-width: 23.5em) {
+  .option .plan p {
+    font-size: 0.875rem;
+    width: 5.5rem;
+    margin-right: 2.0625rem;
+  }
 }
 
 .option .plan p.period {
@@ -144,6 +164,12 @@ button:hover {
 .option a:hover {
   text-decoration: none;
   opacity: 0.8;
+}
+
+@media (max-width: 23.5em) {
+  .option a {
+    font-size: 0.8125rem;
+  }
 }
 
 .cancelOrder {
