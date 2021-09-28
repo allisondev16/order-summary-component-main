@@ -6,6 +6,10 @@
     overflow: hidden;
     background-color: white;
     margin: 5.875rem 0;
+
+    @media (max-width: 23.5em){
+        margin: 4.0625rem 0;
+    }
 }
 
 .summary {
@@ -14,11 +18,23 @@
     align-items: center;
     padding-bottom: 3rem;
 
+    @media (max-width: 23.5em){
+        padding-bottom: 2rem;
+    }
+
     p {
     margin: 1.1875rem 0px;
     width: 19rem;
     line-height: 1.6;
+
+    @media (max-width: 23.5em){
+        font-size: 0.9375rem;
+        line-height: 1.7;
+        width: 16rem;
+        margin-top: 1.0625rem;
+        margin-bottom: 1.5625rem;
     }
+    }   
 }
 
 .option {
@@ -95,5 +111,9 @@
 
     &:hover {
         color: $darkBlue;
+    }
+
+    @media (max-width: 23.5em){
+        margin-top: 1.4375rem;
     }
 }
