@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  background-image: url("/images/pattern-background-desktop.svg");
+  background-image: url("images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
   background-color: #e0e8ff;
   background-position-x: center;
@@ -14,7 +14,7 @@ body {
 
 @media (max-width: 23.5em) {
   body {
-    background-image: url("/images/pattern-background-mobile.svg");
+    background-image: url("images/pattern-background-mobile.svg");
   }
 }
 
