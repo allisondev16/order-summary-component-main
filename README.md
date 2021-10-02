@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 <!-- - Solution URL: [Add solution URL here](https://your-solution-url.com) -->
-- Live Site URL: [Live site](https://allisondev16.github.io/order-summary-component-main/)
+- Live Site URL: https://allisondev16.github.io/order-summary-component-main/
 
 ## My process
 
@@ -48,11 +48,10 @@ Users should be able to:
 
 - I included '/' at the beginning of the path of the images at first, but it's working with SCSS. However, the images were not rendered/displayed when the compiled CSS was used. I figured out that I should remove '/' to work.
 
-- I'm proud of using 
+- I'm proud of using (thanks Coder Coder)
 ```css
 overflow: hidden;
 ```
-thanks Coder Coder
 
 - Usage of flexbox with justify-content and align-items
 
@@ -74,12 +73,12 @@ I want to enhance my skills more on frontend development. My next target is to c
 
 ### Useful resources
 
-- [Example resource 1](https://youtu.be/aoQ6S1a32j8) - This helped me with this project. I liked that I could watch how a pro Frontend Developer such as Coder Coder makes a landing page from Frontend Mentor. In this YouTube video, I learned techniques in which I applied to this project. It's also the video that taught me SCSS for the first time.
+- [How to Make a Landing Page using HTML, SCSS, and JavaScript - Full Course by Coder Coder](https://youtu.be/aoQ6S1a32j8) - This helped me with this project. I liked that I could watch how a pro Frontend Developer such as Coder Coder makes a landing page from Frontend Mentor. In this YouTube video, I learned techniques in which I applied to this project. It's also the video that taught me SCSS for the first time.
 
 ## Author
 
 - GitHub - [Allison Mamangun](https://github.com/allisondev16)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/allisondev16)
+- Frontend Mentor - [@allisondev16](https://www.frontendmentor.io/profile/allisondev16)
 
 ## Acknowledgments
 
