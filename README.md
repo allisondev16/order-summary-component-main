@@ -28,8 +28,20 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](./myScreenshot/desktop.png)
-![Mobile](./myScreenshot/mobile.png)
+<p align="center">
+Desktop:
+</p>
+<p align="center">
+<img src="./myScreenshot/desktop.png"/>
+</p>
+
+<p align="center">
+Mobile:
+</p>
+<p align="center">
+<img src="./myScreenshot/mobile.png" width="300" height="589.60" />
+</p>
+
 
 ### Links
 
@@ -40,7 +52,7 @@ Users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup
+- HTML5
 - SCSS
 - Flexbox
 
@@ -66,6 +78,8 @@ overflow: hidden;
 - I know Coder Coder used Adobe software to measure the sizes of the images, but I just discovered that I can use MS Paint when I was close to finishing this challenge! But you know what they say, it's always never too late.
 
 - I've practiced using media query and transition.
+
+- I've used the unit rem instead of px for the sizes as recommended by Coder Coder. Using rem will adapt the font size of the root of the HTML, like a multiplier, whereas px is fixed and absolute, not dependent on the font size of the root of HTML. A browser like Google Chrome or Firefox has the setting to customize the font size with a default size of 16px. Using this setting will take effect when using rem but not if px.
 
 ### Continued development
 
