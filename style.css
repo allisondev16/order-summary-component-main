@@ -47,7 +47,7 @@ h1 {
 @media (max-width: 23.5em) {
   h1 {
     font-size: 1.375rem;
-    margin-top: 1.6875rem;
+    margin-top: 1.625rem;
   }
 }
 
@@ -82,6 +82,7 @@ button:hover {
 @media (max-width: 23.5em) {
   button {
     padding: 1rem 4.0625rem;
+    margin-top: 1.5625rem;
   }
 }
 
@@ -169,6 +170,13 @@ button:hover {
   margin-left: 1.0625rem;
 }
 
+@media (max-width: 23.5em) {
+  .option .plan {
+    margin-right: 2.0625rem;
+    margin-left: 0px;
+  }
+}
+
 .option .plan p {
   width: 6.5rem;
 }
@@ -177,7 +185,6 @@ button:hover {
   .option .plan p {
     font-size: 0.875rem;
     width: 5.5rem;
-    margin-right: 2.0625rem;
   }
 }
 
@@ -187,6 +194,12 @@ button:hover {
   color: #1f2f56;
   margin-top: 0px;
   margin-bottom: 0.0625rem;
+}
+
+@media (max-width: 23.5em) {
+  .option .plan p.period {
+    font-size: 0.875rem;
+  }
 }
 
 .option .plan p.price {
@@ -229,7 +242,7 @@ button:hover {
 
 @media (max-width: 23.5em) {
   .cancelOrder {
-    margin-top: 1.4375rem;
+    margin-top: 1.5rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -60,13 +60,18 @@
         color: $darkBlue;
         margin-right: 5.25rem;
         margin-left: 1.0625rem;
+
+        @media (max-width: 23.5em){
+            margin-right: 2.0625rem;
+            margin-left: 0px;
+        }
         
         p {
             width: 6.5rem;
+
             @media (max-width: 23.5em){
                 font-size: 0.875rem;
                 width: 5.5rem;
-                margin-right: 2.0625rem;
             }
             
             &.period {
@@ -76,6 +81,9 @@
                 margin-top: 0px;
                 margin-bottom: 0.0625rem;
                 
+                @media (max-width: 23.5em){
+                    font-size: 0.875rem;
+                }
             }
             &.price{
                 margin-top: 0px; 
@@ -114,6 +122,6 @@
     }
 
     @media (max-width: 23.5em){
-        margin-top: 1.4375rem;
+        margin-top: 1.5rem;
     }
 }
